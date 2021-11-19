@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rock+Salt&display=swap');
+
+@font-face {
+    font-family: "Lapiz";
+    src: url("../Fuentes/Bolten\ Regular.otf");
+}
+
+body{
+    background-color: aqua;
+    margin: 0;
+}
+
+li {
+    font-family: Georgia;
+}
+
+h1 {
+    text-align: center;
+    color: orangered;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    font-family: 'Rock Salt', cursive;
+}
+
+h2 {
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    font-family: 'Rock Salt', cursive;
+}
+
+p {
+    font-size: 25px;
+    font-family: "Lapiz";
+}
+
+a{
+    font-family: "Lapiz";
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
+header {
+    text-align: center;
+}
+
+footer{
+    background-color: lightblue;
+    clear: both;
+    text-align: center;
+}
+    
+footer li {
+    font-size: 40px;
+}
+
+audio:hover {
+    background-color: red;
+}
+
+h1:hover {
+    background-color: yellow;
+}
+
+h2:hover {
+    background-color: blue;
+}
+
+p:hover {
+    background-color: chartreuse;
+}
+
+form {
+    text-align: center;
+    border: solid 2px;
+    background-color: yellow;
+}
+
+form:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+form input {
+    margin: 15px 0 15px 0;
+}
+
+main {
+    background-image: url("../IMG/fondo.jpg");
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+footer li a::after {
+    content: ">> contactos";
+    color: orange;
+}
